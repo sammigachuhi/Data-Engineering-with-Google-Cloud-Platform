@@ -15,7 +15,7 @@
 from google.cloud import bigquery
 
 # TODO : Change to your project id
-PROJECT_ID = "packt-gcp-data-eng-426716"
+PROJECT_ID = "packt-data-eng-on-gcp"
 GCS_URI = "gs://{}-data-bucket/from-git/chapter-3/dataset/trips/20180101/*.json".format(project_id)
 # This uri for load data from 2018-01-02
 #GCS_URI = "gs://{}-data-bucket/from-git/chapter-3/dataset/trips/20180102/*.json".format(project_id)
